@@ -1,3 +1,6 @@
+body{
+	font-family: Vazir;
+}
 .fa-2x{
 	font-size: 2rem;
 }
@@ -11,7 +14,8 @@
 	padding-top: 10px;
 }
 .menu:hover,nav.menu.expanded{
-	width: 350px;
+	width: 260px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .20);
 }
 .menu{
 	background-color: #eb4d4b;
@@ -25,6 +29,7 @@
 	transition: width 0.5s linear;
 	z-index: 1000;
 	overflow: hidden;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
 }
 .menu ul{
 	margin: 7px 0;
@@ -34,9 +39,7 @@
 	display: block;
 	width: 250px;
 }
-.menu span{
-	padding-left: 20px;
-}
+
 .menu li a{
 	position: relative;
 	display: table;
@@ -56,14 +59,13 @@
 	vertical-align: middle;
 	font-size: 18px;
 }
-.menu .textNav{
+.menu span.textNav{
 	position: relative;
 	display: table-cell;
 	vertical-align: middle;
 	width: 190px;
-	font-family: Vazir;
 	text-align: right;
-	padding-right: 20px;
+	padding-left: 20px;
 }
 .menu ul.logout{
 	position: absolute;
